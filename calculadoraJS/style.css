@@ -1,0 +1,52 @@
+body{
+  background: #2E3047;
+  font: normal 20pt Helvetica;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+section#calc{
+  background: #0f1018;
+  margin: auto;
+  margin-top: 80px;
+  width: 350px;
+  padding: 20px 20px 35px 20px;
+  border-radius: 10px;
+}
+
+div#tela{
+  background: white;
+  color: black;
+  margin: auto;
+  padding: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+button{
+  background: #3c3f58;
+  color: white;
+  font: normal 16pt Helvetica;
+  border: none;
+  width: 75px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button#AC,#div,#x,#sub,#sum,#eql{
+  background-color: #3bba9c;
+}
+
+button#AC,#eql{
+  width: 157px;
+}
+
+footer{
+  margin-top: 45px;
+}
