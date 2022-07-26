@@ -1,0 +1,39 @@
+body{
+  font: normal 15pt Helvetica;
+  background: #1e1e2c;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  width: 493px;
+  height: 30px;
+  font-size: large;
+}
+
+#main{
+  width: 500px;
+  background: #2d2d44;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px 40px 10px 40px;
+
+}
+
+#enviar{
+  width: 502px;
+  height: 45px;
+  margin: 20px 0px 15px 0px;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+footer{
+  text-align: center;
+  margin-top: 40px;
+}
