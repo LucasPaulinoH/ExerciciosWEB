@@ -9,29 +9,43 @@ h1{
 }
 
 input{
-  width: 493px;
+  width: 400px;
   height: 30px;
   font-size: large;
 }
 
 #main{
-  width: 500px;
   background: #2d2d44;
   border-radius: 10px;
   margin: auto;
-  padding: 10px 40px 10px 40px;
+  padding-bottom: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.185);
 
 }
 
 #enviar{
-  width: 502px;
+  color: #1e1e2c;
+  width: 408px;
   height: 45px;
-  margin: 20px 0px 15px 0px;
+  margin-top: 20px;
   font-size: large;
+  font: bold 15pt Helvetica;
   border-radius: 10px;
   cursor: pointer;
-  
+  border: none;
 }
+
+#enviar:hover{
+  background-color: #31e1ed;
+  color: #1e1e2c;
+}
+
+
 
 footer{
   text-align: center;
